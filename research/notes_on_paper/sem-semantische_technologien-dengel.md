@@ -1,6 +1,6 @@
 # Semantische Technologien [Andreas Dengel] [^1]
 
-## Einführung
+## Einführung [^2]
 
 - soll ein Computer von Menschen gesendete Nachrichten (Anweisungen) verstehen, so muss die Bedeutung der Nachricht in einer für den Computer geeigneten (formalen Weise) erklärt werden
 - semantische Technologien bieten notwendigen Verfahren, Darstellungsweisen um die Bedeutung von sprachlichen Ausdrücken explizit zu beschriebe und deutlich zu machen (in formaler Weise) 
@@ -42,7 +42,7 @@
 - Metadaten bilden Grundlage zur Beschreibung, Erschließung von Semantik
 - sind Daten über Daten
 
-## Wissensrepräsentation
+## Wissensrepräsentation [^3]
 
 - Wissen stellt grundsätzlich die Grundlage für uns dar, sich auszudrücken, zu kommunizieren, sich in der Gesellschaft zurecht zufinden -> Wissen ist eine Grundlage des Lebens
 - Frage ist nun, wie können wir unser Wissen an einen Computer weitergeben, damit dieser in mit Menschen vergleichbarer Weise "intelligent" handeln kann?
@@ -50,13 +50,13 @@
 - solche Fragen stehen im Fokus der KI
   - Wissenschaft der Grundlagen und Erstellung von Computersystemen, die ein Verhalten realisieren und aufweisen, wwelches beim Menschen als intelligent angesehen wird -> repräsentiertes Wissen ist solche Grundlage und Voraussetzung
 
-## Prinzipien der maschinellen Wissensverarbeitung
+### Prinzipien der maschinellen Wissensverarbeitung
 
 - Sprache ist eindimensional, unsere Umgebung in ihrem räumlichen und zeitlichen Kontext eines Ereignisses mehrdimensional und vielschichtig -> muss sich Formalismen zu nutze machen, welche die gegebenen Umstände und Rahmenbedingugen eines Ereignisses oder einer Situation in Zusammenhang bringen (welche maschinelles Verstehen erlauben)
 - _Repräsentation_: die Art und Weise, wie man Wissen formuliert (engl. knowledge representation)
 - _Inferenzmechanismus, Inferenzregel, Inferenz_: Vorschrift zum Schlussfolgern
 
-## Fakten und Regeln
+### Fakten und Regeln
 
 - können explizites Wissen als Subjekt-Prädikat-Objekt Tripel darstellen, was semantisch zunächst jedoch bedeutungslos ist für computer
 - damit Semantik der Aussagen für den computer erfassbar (damit passende Aktion abgeleitet werden kann) muss dem Computer eine Brücke zwischen syntaktischer Darstellung un daraus resultierenden Aktion gebaut werden (Inferenzregeln)
@@ -83,7 +83,7 @@
 - -> Ausdrucksmächtigkeit einer Wissensrepräsentation ist untrennbar mit der Leitungsfähigkeit der jeweiligen Inferenzregel verknüpft
 - alle infrage kkommenden Ansätze lassen sich auf mathematisch präzise Ausdrucksweise der Logik und der verschiedenen Kalküle (Inferenzvorschriften) abbilden
 
-## Logik und Inferenz
+### Logik und Inferenz
 
 - Fähigkeit, Wissen abzuleiten/zu inferieren, ist zentraler Bestandteil menschlicher Problemlösungsfähigkeit
   - schließen aufgrund bestehender Sachverhalte, dass bestimmte plausible Ereignisse schon stattgefunden haben oder stellen Vermutungen an, indem wir Zusammenhänge von Ereignissen deuten
@@ -91,11 +91,11 @@
   - dazu verwendung von Logik, die sich u.U. als Repräsentationsformalismus für Wissen eignet
   - Mächtigkeit der mathematischen Logik erlaubt es, menschliches Denken zu abstrahieren und Wissensbasen zu konstruieren, auf deren Inhalten Schlussfolgerungen gezogen oder neue Sachverhalte hergeleitet werden können
 
-### Logische Operatoren
+#### Logische Operatoren
 
 -> logischen AND, OR, NOT, CONSEQUENCE (->), EQUIVALENCE (<->)
 
-### Inferenzmechanismen
+#### Inferenzmechanismen
 
 - auf Grundlage von Ausdrücken der Aussagenlogik können Inferenzregeln angewendet werden, die aus bekannten wahren Aussagen (Prämissen) neue wahre Aussagen (Konklusionen) ableiten
 - _Modus Ponens_: (A AND (A -> B)) -> B
@@ -119,12 +119,12 @@
   - Induktion: Beobachtungen zu abstrahieren und so neue Vermutungen über allgemeine Gesetzmäßigkeiten aufzustellen
 - Aussagenlogik aufgrund begrenzter Ausdrucksmittel nur eingeschränkt zur Wissensdarstellung geeignet -> next stop Prädikatenlogik (nicht nur Aussagen als Ganzen, sondern enthaltene objekte selbst beschreiben)
 
-### Prädikatenlogik
+#### Prädikatenlogik
 
 - grundlegende Form der Wissensdarstellung, die automatische Inferenz universell und direkt unterstützt
 - Ausdrücke in Prädikatenlogik erweitern die in Aussagenlogik um Bezug auf Objekte
 
-#### Symbolformen
+##### Symbolformen
 
 - in Prädikatenlogik kann man betrachteten Weltausschnitt, bestehend aus Objekten unterschiedlicher Objekttypen (Individuen, Eigennamen, Elemente) beschreiben
 - als Grundlage zur Beschreibung von Objekten dienen _Konstantensymbole_ (z.B. Rudi)
@@ -134,14 +134,14 @@
 - Prädikate können m.H. bereits bekannter logischer Junktoren verknüpft werden
 - _Variablensymbole_ (z.B. x) repräsentieren beliebige Elemente und erlauben allgemeingültige Aussagen für Teilmengen von Elementen eines Definitionsbereichs
 
-#### Quantoren
+##### Quantoren
 
-- Aussagen darüber, auf wie viele Elemente eines Definitionsbereiches ein Prädikat zutrifft #sym.arrow.r einschränkend/verallgemeinernd auf Gültigkeit von Aussagen
-- _Existenzquantor_ #sym.exists: Prädikat gilt für mind. ein Element
-- _Allquantor/Univeralquantor_ #sym.forall: Prädikate gelten für alles Elemente eines Definitionsbereichs
+- Aussagen darüber, auf wie viele Elemente eines Definitionsbereiches ein Prädikat zutrifft -> einschränkend/verallgemeinernd auf Gültigkeit von Aussagen
+- _Existenzquantor_ EXISTS: Prädikat gilt für mind. ein Element
+- _Allquantor/Univeralquantor_ FORALL: Prädikate gelten für alles Elemente eines Definitionsbereichs
 - durch Einbeziehung der Negation kann man den einen Quantor m.H. des anderen ausdrücken und den gleichen Sachverhalt unterschiedlich ausgedrückt in Äquivalenzrelation bringen: \
-    $#sym.exists x #sym.not "hat-geheiratet(x, Anke)" <--> #sym.not #sym.forall x "hat-geheiratet(x, Anke)"$ \
-  #sym.arrow.r Dualität der Operatoren
+    EXISTS x NOT "hat-geheiratet(x, Anke)" <--> NOT FORALL x "hat-geheiratet(x, Anke)"$ \
+  -> Dualität der Operatoren
 - so lassen sich m.H. der Prädikatenlogik komplexe Sachverhalte ausdrücken
 
 - Regeln:
@@ -153,10 +153,10 @@
 
 - Prädikatenlogik liefert ausreichend Sprachmittel zur Darstellung von Faktenwissen und Inferenzregeln, die Ableitung erlauben
 - mangelt jedoch daran, das repräsentierte Wissen organisieren zu können (bei großen Wissenssammlungen nachteilig) \
-  #sym.arrow.r brauchen Wissensdarstellungen, die es erlauben, Wissen im kontextuellen/sachlichen Zsmh. darzustellen
+  -> brauchen Wissensdarstellungen, die es erlauben, Wissen im kontextuellen/sachlichen Zsmh. darzustellen
 
 
-### Semantische Netze
+#### Semantische Netze
 
 - gehen auf Quillian (1966) zurück
 - ~ definieren Wortbedeutungen - gehen davon aus, dass die Bedeutung eines Objekts (Begriffs) in erster Linie durch seine assoziativen Beziehungen zu anderen Objekten (Begriffen) beschreibbar ist
@@ -164,19 +164,19 @@
 - Assoziationen können ein Verhltnis von zwei völlig selbstständigen Objekten ausdrücken, die erstmal nichts miteinander zu tun haben müssen, aber unter bestimmten Rahmenbedingungen in eine lose Bezighung gebracht werden können
 
 
-#### Wissensdarstellung mit Graphen
+##### Wissensdarstellung mit Graphen
 
 - semantische Netze abstrahieren vorhandenes Wissen m.h. eines markierten Graphen
   - KNoten repräsentieren Objekte
   - Kanten drücken assoziative Beziehungen zw. Objekten (und deren Eigenschaften) aus
 - Assoziationen sind oft bidirektiional, werden häufig nur in bestimmter Richtung (des Zugriffs) benötigt und implementiert
 - falls zugriff nur in bestimmte Richtung (nur auf bestimmtes Objekt) erfolgen darf, spricht man von gerichteten Beziehungen -> entsprechend sind Kanten im Graphen gerichtet
-- somit wird jegliche Information, die notwendig ist, um ein Objekt zu repräsentieren, direkt über seine Beziehungen zugreifbar #sym.arrow Wissensherleitung erfolgt durch Suche in dem Netzwerk von Beziehungen entlang von gerichteten Kanten
+- somit wird jegliche Information, die notwendig ist, um ein Objekt zu repräsentieren, direkt über seine Beziehungen zugreifbar -> Wissensherleitung erfolgt durch Suche in dem Netzwerk von Beziehungen entlang von gerichteten Kanten
 - ~ ursprünglich eingeführt, um Sätze der natäurlichen Sprache in eine formale Darstellung zu überführen
 - von einfachen Sätzen, die auf Subjekt-Prädikat-Objekt Syntax aufbauen bis hin zu komplizierteren sätzen, lässt sich vielen mit ~ darstellen
 
 
-#### Relationen und ihre Eigenschaften
+##### Relationen und ihre Eigenschaften
 
 - in sem. netzen wird i.Allg. versucht, Objekte und Eigenschaften mit Relationen in Zusammenhang zu bringen, welche den verschiedenen Formen einer Assoziation genügen
 - Eigenschafte: _Reflexivität, Symmetrie, Transitivität_:
@@ -199,17 +199,17 @@
 - _Kausation_: Ausdruck von Ursache-Folge-Relationen, "folgt-aus", transitiv mit fester zeitlicher Abhängigkeit (nicht symmetrisch)
   - kausale Verbindungen gehören zu _Common Sense_-Verknüpfungen, zu denen auch temporale oder lokale Relationen gehören
 
-#### Eigenschaften semantischer Netze
+##### Eigenschaften semantischer Netze
 
 - vergleicht man graphische Darstellung semantischer Netze mit logischen Form der Wissensdarstellung, schein graphische Repräsentation intuitiver, da sie sich an der natürlichen Sprache orientiert
-- "wirtschaftliche" Repräsentation: Objekte, Eigenschaften müssen nur bei ihrem ersten Auftreten einmal als Knoten eingefügt #sym.arrow.r Speichersplatz gespart
+- "wirtschaftliche" Repräsentation: Objekte, Eigenschaften müssen nur bei ihrem ersten Auftreten einmal als Knoten eingefügt -> Speichersplatz gespart
   - weitere Aussagen zu Begriffen dann über neue Relationen ergänzt
 - semantische Netze wachsen jedoch extrem schnell, genaue Ausformulierung bedarf umfangreicher und aufweniger Modellierungsarbeit -> unübersichtlich
 - Herleitung von Wissen löst in Folge aufwändigen Suchprozess aus
   - Suche in semNetzen via Spreading-Activation-Mechanisms in Form einer _Breitensuche_
   - Konsistenz des semNetzes dabei nicht überprüfbar
 
-#### Kardinalität von Relationen
+##### Kardinalität von Relationen
 
 - _Kardinalität_: Nutzbarkeit einer Beziehung für ein Objekt eines bestimmten Objekttyps
 - in semNetzen legt Kardinalität fest, wie oft ein gegebenes Objekt eines Objekttyps (Objekttypen etwa gleichzusetzen mit Klassen) unter Verwendung eines bestimmten Relationstyps mit Objekten eines anderen objekttyps verbunden sein darf
@@ -218,14 +218,14 @@
   - Ein Objekt eines Objekttyps steht mit *beliebig vielen* Objekten eines anderen Objekttyps in Beziehung. In der Gegenrichtung sthet ein Objekt des einen Objekttyps mit *höchstens einem* Objekt des anderen Objekttyps in Beziehung (Kardinalität 1:n)
   - Ein Objekt eines Objekttyps steht mit *beliebig vielen* Objekten eines anderen Objekttyps in Beziehung (Kardinalität n:m)
 - Verwendung solcher Relationen (mit Kardinalitäten) beschreibt die Semantik eines Objektes, wobei die Interpretation, was Objekt und was Eigenschaft ist, nur durch nähere Betrachtung der verwendeten Begriffe möglich ist 
-- #sym.arrow.r hat in semNetzen keinen Zugriff auf die Semantik eines Knotens
+- -> hat in semNetzen keinen Zugriff auf die Semantik eines Knotens
   - Betrachtung semNetz legt nahe, Objekte mit all ihren zugehörigen beschreibenden Eigenschaften als semantische Einheiten zusammenzufassen
   - auch können gemeinsame Beschreibungselemente festgestellt werden, um daraus allgemeiner geltende Eigenschaften zu generieren, die verllgemeinernde Objekte besitzen
 
 
-### Frames
+#### Frames
 
-#### Schemabegriff
+##### Schemabegriff
 
 - Prädikate sind wensetliche Elemente zur Beschreibung von Eigenschaften
   - mit ihrer Hilfe lassen sich zeitliche, räumliche Daten qualitativ ausdrücken
@@ -234,7 +234,7 @@
   - damit in Verbindung stehendes wissen lässt sich in einem Schema zusammenfassen
 - _Schema_ ursprüngl. von Bartlett (1932) eingeführt, bezeichnet das wissen von Menschen, etwa über ein Individuum, ein Objekt, ein Ereignis, eine Handlung
   - stellt somit eine kognitive Struktur dar, welche in sich selbstständig ist und damit die Verarbeitung seiner Informationen bestimmt
-  - #sym.arrow.r in seiner Beschreibung abgrenzbar und als Einheit funktionierend -> seine es definierende Bestandteile werden zur gleichen Zeit aktiviert
+  - -> in seiner Beschreibung abgrenzbar und als Einheit funktionierend -> seine es definierende Bestandteile werden zur gleichen Zeit aktiviert
   - durch Reize von außen oder über Beziehungen zu anderen Schemata von innen aktivierbar
 - charakteristika für Schemata von Mandel, Spoada (1988):
   + Schemata sind kognitive Strukturen, in denen allgemeines Wissen im Gedächtnis repräsentiert ist. Das Wissen über typische Zusammenhänge in einem Reallitätsbereich ist in Schemata organisiert.
@@ -246,7 +246,7 @@
 - mit einem Schema werden die mentalen Vorstellung mit einer Realdefinition einer symbolischen Beschriebung verknüpft (ein bestimmter Gegenstand lässt sich damit einer Kategorie oder Gattung zuweisen, welche diese definiert)
 - wenn wir uns über etwas unterhalten, dann neigen wir dazu, uns das ausgesprochene Etwas vorzustellen - wollen wir diese Imagination beschreiben, greifen wir meist auf qualitative und quantitative Prädikate zurück, welche die wesentlichen Imaginageionen sprachlich-logisch wiedergeben und die in einer Schemabeschreibung zusammengefasst werden können
 
-#### Frames als Denkmodell
+##### Frames als Denkmodell
 
 - _Frame_: Marvin Minsky (1974) in Aufsatz "A framework for representing knowledge", als Grundlage für ein intuitives Denkmodell in der KI
 - Frames = Schemata, die in ihrem Zusammenspiel ein komplexes Netzwerk mentaler Konzepte repräsentieren -> simulieren Denkprozesse 
@@ -264,19 +264,19 @@
 - Frames recht nahe an Denkweise des Menschen 
   - Frames erlauben es Objekte eines Problembereichs ähnlich der realen kWelt auf Grundlage von Eigenschaften oder Prädikaten zu gliedern/zu abstrahieren + Wechselwirkungen zu repräsentieren
 - Frames können sowohl Objekte systematisch beschreiben, als auch zeitliche Aspekte strukturell repräsentieren
-  - #sym.arrow.r Frames sind modulare Beschreibungen deklarativer und prozeduraler Aspekte unserer Wahrnehmung, die sich im kognitiven Zusammenhang abrufen lassen
+  - -> Frames sind modulare Beschreibungen deklarativer und prozeduraler Aspekte unserer Wahrnehmung, die sich im kognitiven Zusammenhang abrufen lassen
 - von Frames abgedeckte Aspekte der Wissensrepräsentation:
   - Frames sind abstrakte Informationseinheiten, mit deren Hilfe sich stereotype Wissen strukturell beschreiben lässt
   - Durch Vernetzung mit anderen Frames können Zusammenhänge und Wechselwirkungen und damit komplexe Sinneseindrücke dargestellt erden
 - gibt Konzepte mit unterschiedlichem Abstraktionsgrad - je nach Zusammenhang
 
-#### Klassifikation 
+##### Klassifikation 
 
 - _Klassen_: Musterframes, die Schablonen für Konzepte mit gemeinsamen Eigenschaften darstellen
   - "wertloses" Frame, das für eine menge individueller Objekte angibt, welche Eigenschaften diese teilen
 - _Klassifikation_: Zusammenfassung gleichartiger Frames zu einer Klasse
 
-#### Generalisierung und Spezialisierung
+##### Generalisierung und Spezialisierung
 
 - Klassen in Framesystemen wirken wie Erfahrungeswissen, um Eigenschaften abzuleiten, Zusammenhänge zu erkennen
 - Schrittweise Abstraktion von Begriffsbeschreibungen führt zu einer Hierarchie von Klassen
@@ -297,7 +297,7 @@
 - Frames sind schematische Wissensstrukturen mit unterschiedlichem Abstraktiionsgrad
 - je spezieller man ein Objekt betrachtet, umso mehr wird es mit Daten angereichert
 
-#### Vererbung
+##### Vererbung
 
 - einige Eigenschaften treffen auf alle Objekte/Schemata/Klassen einer Oberinstanz zu -> muss diese Eigenschaften nicht mehrfach definieren, sondern gibt sie Oberinstanz mit, die Eigenschaft an alle Kinder "vererbt"
 - Eigenschaft dabei so weit oben wie möglich in Hierarchie definieren
@@ -311,7 +311,7 @@
   - verwendet für Klassifikationssysteme, Systematik, vorgang des Klassifizierens
   - intuitiv nachvollziehbare  Abstraktionskonzepte
 
-#### Instanziierung
+##### Instanziierung
 
 - Instanzen einer Klasse sind real existierende Objekte
 - Teile einer Instanz sind _existenzabhängig_
@@ -320,7 +320,7 @@
   - z.B. können komplexe Operationen nötig sein oder die Fächer müssen immer wieder in ihren Werten aktualisiert werden oder sind gar nicht füllbar (fehlendes Wissen)
 
 
-### Taxonomien
+#### Taxonomien
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -349,5 +349,33 @@ ____________________________________
   pages = {458},
   isbn = {978-3-82274-2663-5},
   doi = {10.1007/978-3-8274-2664-2},
+  note = {papers}
+})
+
+[^2]: [incollection] (@incollection{dengel12semtech01,
+  author = {Dengel, Andreas and Bernardi, Ansgar},
+  booktitle = {Semantische Technologien: Grundlagen -- Konzepte -- Anwendungen},
+  title = {Einleitung},
+  pages = {3--19},
+  year = {2012},
+  editor = {Dengel, Andreas},
+  publisher = {Spektrum Akademischer Verlag Heidelberg},
+  isbn = {978-3-82274-2663-5},
+  doi = {https://doi.org/10.1007/978-3-8274-2664-2_1},  
+  url = {https://doi.org/10.1007/978-3-8274-2664-2_1},
+  note = {papers}
+})
+
+[^3]: [incollection] (@incollection{dengel12semtech02,
+  author = {Dengel, Andreas and Bernardi, Ansgar and van Elst, Ludger},
+  booktitle = {Semantische Technologien: Grundlagen -- Konzepte -- Anwendungen},
+  title = {Wissensrepräsentation},
+  pages = {21--72},
+  year = {2012},
+  editor = {Dengel, Andreas},
+  publisher = {Spektrum Akademischer Verlag Heidelberg},
+  isbn = {978-3-82274-2663-5},
+  doi = {https://10.1007/978-3-8274-2664-2_2},  
+  url = {https://doi.org/10.1007/978-3-8274-2664-2_2},
   note = {papers}
 })
