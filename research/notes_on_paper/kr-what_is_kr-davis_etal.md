@@ -1,7 +1,7 @@
 # What is Knowledge Representation? [Davis et al.] [^1]
 
 - sound inference does not free reasoning from error - one major problem is knowledge representation itself
-- there is no way to build a perfect representation f a real world aspect/domain etc. bc it only is a surrogate, a copy/replica of the real thing, not the real thing itself
+- there is no way to build a perfect representation for a real world aspect/domain etc. bc it only is a surrogate, a copy/replica of the real thing, not the real thing itself
 - a KR as an ontological commitment helps reasoning machines to keep focus an attention at what we deem is necessary for the task at hand
   - humans are biologically equipped with mechanism that handle attention and focus, so in carefully choosing a KR, we provide that feature to our machines
 - ontologies offer a way to see some part of the world - but each for its own
