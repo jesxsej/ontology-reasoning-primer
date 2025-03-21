@@ -28,6 +28,35 @@ file: [kr-what_is_kr-davis_etal.md](kr-what_is_kr-davis_etal.md)
 
 ## Ontologie
 
+**A Translation Approach to Portable Ontology Specification** \
+[Thomas R. Gruber; 1993; Knowledge Acquisition]
+- What is an ontology?
+- Why are portable ontologies a good ides?
+
+file: [onto-a_translation_approach_to_portable_ontology_specifications-gruber.md](onto-a_translation_approach_to_portable_ontology_specifications-gruber.md)
+
+
+
+@article{gruber_translation_1993,
+	author = {Gruber, Thomas R.},
+	title = {A translation approach to portable ontology specifications},
+	volume = {5},
+	issn = {10428143},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S1042814383710083},
+	doi = {10.1006/knac.1993.1008},
+	pages = {199--220},
+	number = {2},
+	journaltitle = {Knowledge Acquisition},
+	shortjournal = {Knowledge Acquisition},
+	date = {1993-06},
+	langid = {english},
+	urldate = {2025-02-22},
+	notes = {ontology}
+}
+
+<br>
+<br>
+
 (wip) **Understanding Ontologies** \
 [Daconta, Michael C. and Obrst, Leo J. and Smith, Kevin T.; 2003; The Semantic Web, Ch. 08]
 - ontologies in context of the Semantic Web
