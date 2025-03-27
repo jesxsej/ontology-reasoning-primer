@@ -97,7 +97,7 @@ ______
   year      = {2003},
   pages     = {181--238},
   url       = {https://www.wiley.com/en-sg/The+Semantic+Web%3A+A+Guide+to+the+Future+of+XML%2C+Web+Services%2C+and+Knowledge+Management-p-9780471432579}
-}
+})
 
 [^2]: [web] (@online{ontogen-whats-ontology,
   author = {Stevens, Robert and  Rector, Alan and Hull, Duncan},
