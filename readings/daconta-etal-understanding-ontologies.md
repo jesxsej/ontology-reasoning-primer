@@ -6,7 +6,7 @@
 - ontologies extend taxonomies
   - ontologies enable you to specify the semantics of your domain, enterprise, community, across communities in great detail
 
-=== Overview of Ontologies
+## Overview of Ontologies
 - _classes_ in an ontology are calles _concepts_
   - bc it is intended that they correspond to the mental concepts that human beings have when they understand a particular body of knowledge/subject matter area/domain
 - concepts and the relationships between them are usually implemented as classes, relations, properties, atributes, and values of the properties/attributes
@@ -149,11 +149,12 @@ _syntax_ is usually identified with _form, format, structure_ \
 
 
 _________________________________________________-
-[^1]: [inbook] (@inbook{daconta2003semantic08,
+[^1]: daconta-etal-understanding-ontologies.md
+@inbook{daconta2003semantic08,
   author    = {Daconta, Michael C. and Obrst, Leo J. and Smith, Kevin T.},
   booktitle = {The Semantic Web: A Guide to the Future of XML, Web Services, and Knowledge Management},
   title     = {Chapter 8: Understanding Ontologies},
   publisher = {Wiley Publishing, Inc.},
   year      = {2003},
   pages     = {181--238},
-})
+}

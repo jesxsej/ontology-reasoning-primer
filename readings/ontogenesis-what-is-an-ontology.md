@@ -1,4 +1,4 @@
-# What is an ontology? [Robert kStevens, Alan Rector, Ducan Hull] [^1]
+# What is an ontology? [Robert Stevens, Alan Rector, Ducan Hull] [^1]
 
 - biology can benefit from use of ontologies
 
@@ -99,11 +99,12 @@ further motivation for the use of ontologies
 
 
 ________________
-[^1]: [webblog] (@online{ontogen-whats-ontology,
+[^1]: ontogenesis-what-is-an-ontology.md
+@online{ontogen-whats-ontology,
   author = {Stevens, Robert and  Rector, Alan and Hull, Duncan},
   year = {2010},
   title ={What is an ontology?},
   howpublished = {Ontogenesis},
   url = {https://web.archive.org/web/20141022112650/http://ontogenesis.knowledgeblog.org/66},
   urldate = {2025-01-31}
-})
+}

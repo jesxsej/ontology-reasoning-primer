@@ -108,7 +108,8 @@
 
 
 ____________________________
-[^1]: [article] (@article{gruber_translation_1993,
+[^1]: gruber-a-translation-approach-to-portable-ontology-specifications
+@article{gruber_translation_1993,
 	author = {Gruber, Thomas R.},
 	title = {A translation approach to portable ontology specifications},
 	volume = {5},
@@ -123,4 +124,4 @@ ____________________________
 	langid = {english},
 	urldate = {2025-02-22},
 	notes = {ontology}
-})
+}

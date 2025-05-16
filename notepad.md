@@ -1,0 +1,1 @@
+Ontologie beschäftig sich in erster Linie mit dem Versuch der Darstellung und Einteilung des Sein und der Realität. Erst in zweiter Linie, ist es die Darstellung der existierenden Konzepte und internen Relationen einer Domäne.
