@@ -201,7 +201,7 @@ Example:
 
 _____________________________________________
 [^1]: neuhaus-what-is-an-ontology.md
-@article{neuhaus_what_2018,
+@article{Ne18,
 	title = {What is an Ontology?},
 	url = {https://www.semanticscholar.org/paper/a13477eaa1ad804e3adb1a91caef1715f23eeb43},
 	journaltitle = {{ArXiv}},

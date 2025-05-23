@@ -12,7 +12,7 @@
     - [(incomplete) daconta-etal-understanding-ontologies.md](#incomplete-daconta-etal-understanding-ontologiesmd)
     - [gruber-a-translation-approach-to-portable-ontology-specifications.md](#gruber-a-translation-approach-to-portable-ontology-specificationsmd)
     - [gruber-ontology-2016.md](#gruber-ontology-2016md)
-    - [gruber-what-is-an-ontology-1993.md](#gruber-what-is-an-ontology-1993md)
+    - [gruber-what-is-an-ontology-1992.md](#gruber-what-is-an-ontology-1992md)
     - [(incomplete) guarino-etal-what-is-an-ontology.md](#incomplete-guarino-etal-what-is-an-ontologymd)
     - [neuhaus-what-is-an-ontology.md](#neuhaus-what-is-an-ontologymd)
     - [ontogenesis-what-is-an-ontology.md](#ontogenesis-what-is-an-ontologymd)
@@ -209,7 +209,7 @@ address = {USA}
 - technical beckground ontologies
 
 
-### [gruber-what-is-an-ontology-1993.md](gruber-what-is-an-ontology-1993.md)
+### [gruber-what-is-an-ontology-1992.md](gruber-what-is-an-ontology-1992.md)
 
 [
 @online{Gr92,

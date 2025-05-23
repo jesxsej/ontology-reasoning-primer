@@ -2,7 +2,7 @@
 
 - <mark> "An ontology is a specification of a conceptualization." </mark>
 
-- <mark> in context of knowledge sharing, term ontology used to mean a _specification of a conceptualization' </mark>
+- <mark> in context of knowledge sharing, term ontology used to mean a _specification of a conceptualization_' </mark>
   - i.e., an ontology is a description (like a formal specification of a program) of the concepts and relationships that can exist for an agent or a community of agents
   - this definition is consistent with the usage of ontology as set-of-concept-definitions, but more general
   - different sense than its use in philosophy (refers to the subject of existence)
