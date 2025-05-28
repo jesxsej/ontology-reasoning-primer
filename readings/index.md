@@ -17,6 +17,8 @@
     - [neuhaus-what-is-an-ontology.md](#neuhaus-what-is-an-ontologymd)
     - [ontogenesis-what-is-an-ontology.md](#ontogenesis-what-is-an-ontologymd)
   - [Reasoning](#reasoning)
+    - [chaining](#chaining)
+      - [shapiro-processing-bottom-up-and-top-down-1987.md](#shapiro-processing-bottom-up-and-top-down-1987md)
     - [unspecific](#unspecific)
       - [ezhilarasu-etal-the-application-of-reasoning-to-aerospace-2019.md](#ezhilarasu-etal-the-application-of-reasoning-to-aerospace-2019md)
 
@@ -88,6 +90,7 @@
 
 - Charakterisierung KR in 5 Punkten
 - ausführliche Beantwortung von 'Was ist KR?'
+- philosophischerer Ansatz, geht wenig auf konkrete Implementation ein
 
 
 ### [sowa-shapiro-knowledge-representation.md](sowa-shapiro-knowledge-representation.md)
@@ -267,6 +270,8 @@ address = {USA}
 
 
 ### [ontogenesis-what-is-an-ontology.md](ontogenesis-what-is-an-ontology.md)
+bzw. [stevens-etal-what-is-an-ontology-2010.md](stevens-etal-what-is-an-ontology-2010.md)
+
 
 [
 @online{SRH10,
@@ -277,13 +282,44 @@ address = {USA}
   url = {https://web.archive.org/web/20141022112650/http://ontogenesis.knowledgeblog.org/66},
   urldate = {2025-01-31}
 }
+
+@misc{SRH10,
+    author = {Stevens, Robert and Rector, Alan and Hull, Duncan},
+    title = {What is an ontology?},
+    url = {http://ontogenesis.knowledgeblog.org/66},
+    journal = {Ontogenesis},
+    year = {2010},
+    howpublished = {\url{http://ontogenesis.knowledgeblog.org/66}},
+    archived = {http://greycite.knowledgeblog.org/?uri=http%3A%2F%2Fontogenesis.knowledgeblog.org%2F66, http://wayback.archive.org/web/http://ontogenesis.knowledgeblog.org/66},
+}
 ]: #
 
 - Def. Ontologie
 - formal vs controlled vocabulary
+- context of biology
 
 
 ## Reasoning
+
+### chaining
+
+#### [shapiro-processing-bottom-up-and-top-down-1987.md](shapiro-processing-bottom-up-and-top-down-1987.md)
+
+[
+@incollection{Sh87
+  author = {Shapiro, Stuart C.},
+  title = {Processing, Bottom-Up and Top-Down},
+  booktitle = {Encyclopedia of Aritficial Intelligence},
+  year = {1987},
+  editor = {Shapiro, Stuart C. and Eckroth, David}
+  pages = {779--785},
+  publisher = {Wiley},
+}
+]: #
+
+- differentiation bottom-up vs. top-down/forward vs. backward/data vs. goal driven + examples
+- explanation of chaining
+- efficiency dependent on particular application
 
 ### unspecific
 
